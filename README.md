@@ -8,11 +8,11 @@ This is a simple RAG example using OpenAI API, with chunks and possible stream r
 
 We have an OpenAI client (API key needed for the user, not uploaded for safety reasons), refactored in a clean "private" OpenAIClient class.
 
-3. ### Details of the project
+### Details of the project
 
-4. - Data Ingestion: PdfReader.
-   - Latency: Chunking, response as stream.
-   - Chat completions: OpenAI gpt-3.5-turbo.
-   - Embeddings: OpenAI text-embedding-3-small.
-   - Knowledge basis: FAISS vector database.
-   - Relevant chunks retrieval: FAISS index built for similarity search.
+- Data Ingestion: PdfReader.
+- Latency: Chunking, response as stream.
+- Chat completions: OpenAI gpt-3.5-turbo.
+- Embeddings: OpenAI text-embedding-3-small.
+- Knowledge basis: FAISS vector database.
+- Relevant chunks retrieval: FAISS index built for similarity search.
